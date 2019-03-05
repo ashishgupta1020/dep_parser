@@ -32,13 +32,13 @@ type Users struct {
 }
 
 type User struct {
-	Name 	string 	`json:"name"`
-	Type 	string 	`json:"type"`
+	Name 	string	`json:"name"`
+	Type 	string	`json:"type"`
 	Age 	int		`json:"age"`
 	Social	Social 	`json:"social"`
 }
 
 type Social struct {
-	Facebook	string `json:"facebook"`
-	Twitter 	string `json:"twitter"`
+	Facebook 	string `json:"facebook"`
+	Twitter		string `json:"twitter"`
 }
